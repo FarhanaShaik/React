@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "some basic Reactjs",
   "main": "index.js",
-  "homepage": "https://farhanashaik.github.io/HrmsProject1/",
+  "homepage": "https://farhanashaik.github.io/React/",
   "private": false,
   "scripts": {
     "start": "npm run build",
