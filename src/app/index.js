@@ -62,16 +62,12 @@ import {ViewTimeEntry} from "./projects/ViewTimeEntry";
 import {CreateInvoice} from "./projects/CreateInvoice";
 import {AdminUsers} from "./admin/AdminUsers";
 import {FirstPage} from "./FirstPage";
-
-
 //import {Calendar1} from "./components/Calendar";
 //import "../styles.css";
 //import styles from "../styles.css";
 
-
 export class App extends React.Component {
   render() {
-
          const Projects1 = ({ match }) => (
           <Container style={{height:'43.5vw'}}>
               <h2>Projects</h2>
@@ -120,16 +116,11 @@ export class App extends React.Component {
                       />
                     </Container>
                   );
-    const AccountName= () =>(
-      <Container style={{height:'45vw'}}>
-      <h1>Account Name: Arsh</h1>
-      </Container>
-    );
+
     return (
   <Router>
       <div >
           <Header1/>
-
               <Route path="/Home" component={Home}/>
               <Route path="/Carousel" component={Carousel}/>
               <Route path="/EmploymentStatus" component={EmploymentStatus}/>
@@ -178,7 +169,7 @@ export class App extends React.Component {
               <Route path="/LoginInfo" component={LoginInfo}/>
               <Route path="/JobHistory" component={JobHistory}/>
               <Route path="/EmpDocs" component={EmpDocs}/>
-
+              <Route path="/MyAccount" component={MyAccount}/>
               <Route path="/AddProject" component={AddProject}/>
               <Route path="/ViewProject" component={ViewProject}/>
               <Route path="/AdminUsers" component={AdminUsers}/>

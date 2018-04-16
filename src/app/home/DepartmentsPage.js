@@ -78,7 +78,7 @@ finance:!this.state.finance
           <a class="dropdown-item"><span onClick={this.finance.bind(this)} style={{cursor:'pointer'}}>Finance</span></a>
         </div>
       </div>
-
+     <Link to="/MyAccount">My Account</Link>
       {marketing}
       {it}
       {finance}
