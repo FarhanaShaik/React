@@ -7,7 +7,7 @@
   "private": false,
   "scripts": {
     "start": "npm run build",
-    "build": "webpack-dev-server --content-base=src/ --inline --hot --history-api-fallback",
+    "build": "webpack-dev-server --content-base src/ --inline --hot --history-api-fallback",
     "build:prod": "webpack -p"
   },
   "author": "Farhana",
